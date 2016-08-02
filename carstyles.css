@@ -3453,9 +3453,16 @@ fieldset[disabled] .btn-link:focus {
 }
 .btn-homepage,
 .btn-group-homepage > .btn {
-  padding: 75px 75px;
+  padding: 75px 85px;
   font-size: 55px;
   line-height: 1.3333333;
+  border-radius: 6px;
+}
+.btn-homepage2,
+.btn-group-homepage2 > .btn {
+  padding: 75px 55px 55;
+  font-size: 55px;
+  line-height: .89;
   border-radius: 6px;
 }
 .btn-sm,
@@ -3692,6 +3699,7 @@ tbody.collapse.in {
 .buttonspacing {
 	
   margin-right: 50px;
+
 }
 .rentersbuttonspacing{
 	margin-top:35px;

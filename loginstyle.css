@@ -29,3 +29,10 @@ li a {
 li a:hover {
     background-color: #111111;
 }
+
+a:link {
+	color:#0000ff;
+	background-color:transparent;
+	text-decoration:none;
+}
+

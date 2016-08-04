@@ -11,7 +11,12 @@ html {
 }
 body {
   margin: 0;
+
+	 background-repeat:no-repeat;
+  background-size:cover;
   background-image:url("https://static.pexels.com/photos/24978/pexels-photo.jpg");
+
+
 }
 article,
 aside,
@@ -1425,6 +1430,7 @@ ul ol,
 ol ol {
   margin-bottom: 0;
 }
+
 .list-unstyled {
   padding-left: 0;
   list-style: none;
@@ -3117,6 +3123,30 @@ fieldset[disabled] .btn-default.focus {
   color: #fff;
   background-color: #333;
 }
+.btn-primary2 {
+  background: #3498db;
+   background-image: -webkit-linear-gradient(top, #6aa6cf, #1ce8b2);
+  background-image: -moz-linear-gradient(top, #6aa6cf, #1ce8b2);
+  background-image: -ms-linear-gradient(top, #6aa6cf, #1ce8b2);
+  background-image: -o-linear-gradient(top, #6aa6cf, #1ce8b2);
+  background-image: linear-gradient(to bottom, #6aa6cf, #1ce8b2);
+
+  -webkit-border-radius: 32;
+  -moz-border-radius: 32;
+
+}
+
+.btn-primary2:hover {
+
+color:black;
+background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #a6c8de);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #a6c8de);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #a6c8de);
+  background-image: -o-linear-gradient(top, #3cb0fd, #a6c8de);
+  background-image: linear-gradient(to bottom, #3cb0fd, #a6c8de);
+  text-decoration: none;
+}
 .btn-primary {
   color: #fff;
   background-color: #337ab7;
@@ -3129,7 +3159,7 @@ fieldset[disabled] .btn-default.focus {
   border-color: #122b40;
 }
 .btn-primary:hover {
-  color: #fff;
+  color: black;
   background-color: #286090;
   border-color: #204d74;
 }
@@ -3290,8 +3320,29 @@ fieldset[disabled] .btn-info.focus {
 }
 .btn-seller {
   color: purple;
-  background-color: #ffff66;
- border-color: #eea236;}
+
+background: #e9f728;
+  background-image: -webkit-linear-gradient(top, #e9f728, #43c456);
+  background-image: -moz-linear-gradient(top, #e9f728, #43c456);
+  background-image: -ms-linear-gradient(top, #e9f728, #43c456);
+  background-image: -o-linear-gradient(top, #e9f728, #43c456);
+  background-image: linear-gradient(to bottom, #e9f728, #43c456);
+
+  -webkit-border-radius: 32;
+  -moz-border-radius: 32;
+
+}
+
+.btn-seller:hover {
+  background: #3cb0fd;
+
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+
+}
  .btn-renter{
 	 color:white;
 	 background-color: #1aff1a;
@@ -3707,7 +3758,7 @@ tbody.collapse.in {
 }
 .btn-toolbar {
 	
-  margin-left: 360px;
+  margin-left: 28em;
 }
 .btn-toolbar .btn,
 .btn-toolbar .btn-group,

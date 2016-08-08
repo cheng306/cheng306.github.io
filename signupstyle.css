@@ -1,8 +1,22 @@
 body {
 	background-color:#f2f2f2;
 }
-li {
-	padding: 8px;
+
+h2 {
+	margin-left:50px;
+}
+
+ol li{
+	margin-left:50px;
+}
+
+a {
+	text-decoration:none;
+}
+
+input.finish {
+	margin-left: 100px
+	
 }
 
 ul {
@@ -27,4 +41,17 @@ li a {
 
 li a:hover {
     background-color: #111111;
+}
+
+.left {
+    width: 30%;
+    float: left;
+    text-align: right;
+	padding: 4px;
+}
+.right {
+    width: 65%;
+    margin-left: 10px;
+    float:left;
+	padding: 4px
 }

@@ -2,48 +2,90 @@
 <html>
 	<head>
 		<link type="text/css" rel="stylesheet" href="signupstyle.css"/>
+		<meta charset="UTF-8">
 
 	</head>
 	
 	<body>
+	
 		<ul>
 			<li class="menu"><a class="active" href="index.html">Home</a></li>
-			<li class="menu"><a href="contact.html">Contact</a></li>
+			<li class="menu"><a href="#contact">Contact</a></li>
 			<li class="menu"><a href="#about">About</a></li>
 		</ul>
 		
 		<ol type = "1">
 			<form>
-				<li>UserName: <input type="text" name="username"><br></li>
+			
+				<div>
+					<div class="left"><li>UserName:</li></div>
+					<div class="right"><input class="text" type="text" name="username"></div>
+				</div>
 				
-				<li>First Name: <input type="text" name="firstname"><br></li>
-	
-				<li>Last Name: <input type="text" name="lastname"><br></li>
+				<div>
+					<div class="left"><li>First Name:</li></div>
+					<div class="right"><input class="text" type="text" name="firstname"></div>
+				</div>
+				
+				<div>
+					<div class="left"><li>Last Name:</li></div>
+					<div class="right"><input class="text" type="text" name="lastname"></div>
+				</div>
 				
 			</form>
-			<h2>Location</h2>
+			
+			
 			
 			<form>
-				<li>Address: <input type="text" name="address"><br></li>
-				<li>City: <input type="text" name="city"><br></li>
-				<li>State: <input type="text" name="state"><br></li>
+				<div>
+					<div class="left"><li>Address:</li></div>
+					<div class="right"><input class="text" type="text" name="address"></div>
+				</div>
+				
+				<div>				
+					<div class="left"><li>City:</li></div>
+					<div class="right"><input class="text" type="text" name="city"></div>
+				</div>
+					
+				<div>	
+					<div class="left"><li>State:</li></div>
+					<div class="right"><input class="text" type="text" name="state"></div>
+				</div>
 			</form>
-			
-			<h2>Contact</h2>
+
 			<form>
-				<li>e-mail: <input type="text" name="email"><br></li>
-				<li>Conact number: <input type="text" name="phone"><br></li>
+		
+				<div>
+					<div class="left"><li>e-mail:</li></div>
+					<div class="right"><input class="text" type="text" name="email"></div>
+				</div>
+				
+				<div>
+					<div class="left"><li>Conact number:</li></div>
+					<div class="right"><input class="text" type="text" name="phone"></div>
+				</div>
+				
 			</form>
-			
-			<h2>Password</h2>
+
 			<form>
-				<li>Password: <input type="text" name="password"><br></li>
-				<li>Confirm Password: <input type="text" name="confpass"><br></li>
+				<div>
+					<div class="left"><li>Password:</li></div>
+					<div class="right"><input class="text" type="text" name="password"></div>
+				</div>
+				
+				<div>
+					<div class="left"><li>Confirm Password:</li></div>
+					<div class="right"><input class="text" type="text" name="confpass"></div>
+				</div>
+				
 			</form>
 			</ol>
-		
-		<input type="submit" value="Finish" style="text-align:center;">
-		<a href="login.html"><input type="submit" value="Cancel"></a>
+		<form>
+			<div>
+				<div class="left"><input class="finish" type="submit" value="Finish" style="text-align:center;"></div>
+				<div class="right"><a href="login.html"><input type="submit" value="Cancel"></a></div>
+			</div>
+		<form>
 	</body>
 
 </html>

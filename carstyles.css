@@ -14,9 +14,25 @@ body {
 
 	 background-repeat:no-repeat;
   background-size:cover;
-  background-image:url("https://static.pexels.com/photos/24978/pexels-photo.jpg");
+background-image:url("https://static.pexels.com/photos/24978/pexels-photo.jpg");
 
 
+}
+.box{
+display:block;
+width:100%;
+height:65em;*/
+
+margin-left:24em;
+margin-right:24em;
+margin-up:2em;
+margin-down:24em;
+}
+.whitebox{
+background-color:white;
+}
+.cyanbox{
+background-color:cyan;
 }
 article,
 aside,
@@ -261,6 +277,7 @@ th {
   .table th {
     background-color: #fff !important;
   }
+
   .table-bordered th,
   .table-bordered td {
     border: 1px solid #ddd !important;
@@ -5043,6 +5060,7 @@ a.badge:focus {
 .nav-pills > li > a > .badge {
   margin-left: 3px;
 }
+
 .jumbotron {
   padding-top: 30px;
   padding-bottom: 30px;

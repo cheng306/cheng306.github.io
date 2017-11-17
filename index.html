@@ -1,19 +1,96 @@
+<!DOCTYPE html>
+
+<!--template from https://www.w3schools.com/w3css/w3css_templates.asp-->
 <html>
-	<head>
-		<link type="text/css" href="style.css" rel="stylesheet">
-	</head>
-	<body>
-		<div id="header"><p>Johnny's Page</p></div>
+<title>Johnny Cheng</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</style>
+<body>
 
-		<nav id="div1">
-			<a>Link1</a>
-			<a>Link2</a>
-			<a>Link3</a>
-		</nav>		
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-large w3-hide-medium w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">ABOUT</a>
+    <a href="#resume" class="w3-bar-item w3-button w3-padding-large w3-hide-small">RESUME</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTACT</a>
+  </div>
+</div>
 
-	</body>
+<!-- Navbar on small screens -->
+<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+  <a href="#resume" class="w3-bar-item w3-button w3-padding-large">RESUME</a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large">CONTACT</a>
+</div>
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:2000px;margin-top:46px">
+
+
+
+  <!-- The ABOUT Section -->
+  <div class="w3-container w3-content w3-center w3-padding-64 w3-white w3-center" style="max-width:2000px" id="band">
+    <h2 class="w3-wide w3-xlarge w3-padding-large">About Me</h2>
+    <p class="w3-justify w3-padding-large w3-large w3-center">Checkout my Resume</p>
+    <div class="w3-center w3-jumbo">
+      <a href="#resume"><i class="fa fa-arrow-circle-down"></i></a>
+    </div>
+  </div>
+
+  <div class="w3-center w3-black w3-padding-64 " id="resume">
+    <h2 class="w3-wide w3-xlarge">Resume</h2>
+    <div class="w3-center w3-padding-16 w3-jumbo">
+      <a href="resume.html"><i class="glyphicon glyphicon-file w3-hover-opacity"></i></a>
+    </div>
+    
+  </div>
+
+
+
+  <!-- The Contact Section -->
+  <div class="w3-center w3-padding-64 w3-row w3-white" style="max-width:2000px" id="contact">
+    <h2 class="w3-wide  w3-xlarge">CONTACT</h2>
+    <!--<div class="w3-row w3-padding-32">-->
+  
+    <div class="w3-col m6 w3-center w3-padding-16 w3-large">
+      <i class="fa fa-phone" style="width:30px"></i> Phone: 2068160443
+    </div>
+
+    <div class="w3-col m6 w3-center w3-padding-16 w3-large">
+      <i class="fa fa-envelope" style="width:30px"> </i> Email: johnnycheng@gmail.com<br>
+    </div>
+    
+  </div>
+  
+<!-- End Page Content -->
+
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity w3-pale-green w3-jumbo">
+  <a href="https://www.facebook.com/johnnyheihei"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+  <a href="https://www.instagram.com/johnnyheihei/"><i class="fa fa-instagram w3-hover-opacity"></i></a>
+  <a href="https://www.linkedin.com/in/johnnychunheicheng"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
+  <a href="https://github.com/cheng306"><i class="fa fa-github w3-hover-opacity"></i></a>
+  <p class="w3-medium">Made with<a href="https://www.w3schools.com/w3css/default.asp" target="_blank"> w3.css</a></p>
+</footer>
+
+<script type="text/javascript">
+  function myFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else { 
+        x.className = x.className.replace(" w3-show", "");
+    }
+  }
+</script>
+
+
+
+</body>
 </html>
-
-<!--	
-float:left;
--->
